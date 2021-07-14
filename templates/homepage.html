@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body style="background:#e2e2e2; color:#52e52E" >
+    <h1>Hi {{name}}, how are you finding Flask.</h1>
+    {% if name == "Ayyoob" %}
+    <p style="color:#757585">You are an admin</p>
+    {% else %}
+    <p style="color:#757585">You are a normal user</p>
+    {% endif %}
+    <img src="static/gideon.JPG" height="500px" width="500px">
+</body>
+</html>
